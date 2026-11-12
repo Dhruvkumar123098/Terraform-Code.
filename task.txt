@@ -1,0 +1,7 @@
+1. Create a terraform file to provision VPC and S3 bucket and create implicit dependency between them, 
+don't worry about the variables, files etc(we will do that later)
+
+2. Create an S3 bucket with versioning and encryption enabled to store Terraform state files
+ Initialize your backend using this statefile
+
+3. 
